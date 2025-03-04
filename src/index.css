@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "ESRebondGrotesque";
+  src: url("../public/assets/fonts/ESRebondGrotesque-Regular.otf")
+    format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "ESRebondGrotesque";
+  src: url("../public/assets/fonts/ESRebondGrotesque-Semibold.otf")
+    format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@layer base {
+  body {
+    @apply font-es-rebond;
+  }
+}
