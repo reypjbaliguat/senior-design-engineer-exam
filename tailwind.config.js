@@ -11,8 +11,8 @@ module.exports = {
         purple: "#544ae5",
       },
       screens: {
-        "h-lg": { raw: "(min-height: 1080px)" },
-        "h-2xl": { raw: "(min-height: 1536px)" },
+        "h-lg": { raw: "(min-width: 1080px) and (min-height: 1080px)" },
+        "h-2xl": { raw: "(min-width: 1080px) and (min-height: 1920px)" },
       },
       fontFamily: {
         "es-rebond": ["ESRebondGrotesque", ...defaultTheme.fontFamily.sans],
@@ -34,7 +34,7 @@ module.exports = {
         "sports-car-lg": "32.5rem",
       },
       aspectRatio: {
-        "bg-hero-2xl-aspect-ratio": "2/1",
+        "bg-hero-2xl-aspect-ratio": "1080/500",
         "bg-hero-lg-aspect-ratio": "1080/380",
       },
       width: {

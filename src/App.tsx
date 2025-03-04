@@ -26,16 +26,12 @@ function App() {
           <img
             src={"assets/images/Sports Car White.svg"}
             alt="Sports Car"
-            className="w-sports-car h-lg:mb-10 h-2xl:mb-4 h-lg:right-10 h-2xl:right-8 absolute"
+            className="w-sports-car h-lg:mb-10  h-lg:right-10 h-2xl:right-8 absolute"
           />
         </div>
       </div>
       <SportsCarContainer colorText="Purple" colorValue="#544ae5" />
-      <SportsCarContainer
-        colorText="Blue"
-        colorValue="#7af1ff"
-        style={"h-lg:hidden h-2xl:grid"}
-      />
+      <SportsCarContainer colorText="Blue" colorValue="#7af1ff" />
       <Footer />
     </section>
   );
