@@ -8,7 +8,7 @@ function HeroSection() {
       <img
         src={"assets/images/background.jpeg"}
         alt="Hero Background"
-        className="object-cover object-top  absolute w-full z-0 h-2xl:aspect-bg-hero-2xl-aspect-ratio h-lg:aspect-bg-hero-lg-aspect-ratio"
+        className="object-cover object-top absolute w-full z-0 h-2xl:aspect-bg-hero-2xl-aspect-ratio h-lg:aspect-bg-hero-lg-aspect-ratio"
       />
       <div className="h-lg:col-span-1 h-2xl:col-span-2 z-10 grid justify-center w-full">
         <HeroTextContainer label={"Ready to"} />
@@ -18,13 +18,14 @@ function HeroSection() {
           textSize={HeroTextSize.SMALL}
         />
       </div>
-      <div className="col-span-1 grid justify-center w-full h-full items-end">
+      <div className="z-10 col-span-1 grid justify-center w-full h-full items-end">
         <img
           src={"assets/images/Sports Car White.svg"}
           alt="Sports Car"
           className="w-sports-car h-lg:mb-10  h-lg:right-10 h-2xl:right-8 absolute"
         />
       </div>
+      <div className="z-0 h-2xl:aspect-bg-hero-2xl-aspect-ratio h-lg:aspect-bg-hero-lg-aspect-ratio absolute inset-0 bg-gradient-to-r from-black/20 via-black/20 to-black/0" />
     </div>
   );
 }
