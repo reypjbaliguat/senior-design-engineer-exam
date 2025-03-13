@@ -1,5 +1,5 @@
 import "./App.css";
-import SportsCarContainer from "components/SportsCarContainer";
+import { SportsCarSection } from "components/sports-car";
 import Footer from "components/Footer";
 import { HeroSection } from "components/hero";
 import AppContainer from "components/AppContainer";
@@ -9,8 +9,8 @@ function App() {
   return (
     <AppContainer>
       <HeroSection />
-      <SportsCarContainer colorValue={Colors.Purple} />
-      <SportsCarContainer colorValue={Colors.Blue} />
+      <SportsCarSection colorValue={Colors.Purple} />
+      <SportsCarSection colorValue={Colors.Blue} />
       <Footer />
     </AppContainer>
   );

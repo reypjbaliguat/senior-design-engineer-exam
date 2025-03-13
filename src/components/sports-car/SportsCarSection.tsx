@@ -1,23 +1,19 @@
-import React from "react";
-import SportsCarItem from "./SportsCarItem";
+import { SportsCarItem } from ".";
 import { SportsCarLayout } from "core/types/layout";
 import { useWindowHeight } from "core/hooks/screen";
 import { Colors, colorTextMap } from "core/types/colors";
+import { SportsCarContainer } from "./";
 
-function SportsCarContainer({ colorValue }: SportsCarLayout) {
+function SportsCarSection({ colorValue }: SportsCarLayout) {
   const height = useWindowHeight();
   const isLargeHeight = height === 1080;
   const isBlue = colorTextMap[colorValue] === "Blue";
   return (
-    <div
-      className={`${
-        isBlue && isLargeHeight ? "hidden" : "grid"
-      } grid-cols-2  h-lg:h-sports-car-lg h-2xl:h-bg-hero-2xl`}
-    >
+    <SportsCarContainer isBlue={isBlue} isLargeHeight={isLargeHeight}>
       <SportsCarItem colorValue={colorValue} />
       <SportsCarItem colorValue={isLargeHeight ? Colors.Blue : colorValue} />
-    </div>
+    </SportsCarContainer>
   );
 }
 
-export default SportsCarContainer;
+export default SportsCarSection;

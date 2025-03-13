@@ -1,5 +1,4 @@
-import React from "react";
-import SportsCarSvg from "./SportsCarSvg";
+import { SportsCarSvg } from "./";
 import { SportsCarLayout } from "core/types/layout";
 import { colorTextMap } from "core/types/colors";
 
