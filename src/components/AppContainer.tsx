@@ -1,6 +1,10 @@
 import React from "react";
 
-function AppContainer({ children }: { children?: React.ReactNode }) {
+interface Props {
+  children?: React.ReactNode;
+}
+
+function AppContainer({ children }: Props) {
   return <section className="w-screen h-screen">{children}</section>;
 }
 
