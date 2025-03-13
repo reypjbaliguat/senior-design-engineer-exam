@@ -4,13 +4,14 @@ import SportsCarContainer from "components/SportsCarContainer";
 import Footer from "components/Footer";
 import HeroSection from "components/HeroSection";
 import AppContainer from "components/AppContainer";
+import { Colors } from "core/types/colors";
 
 function App() {
   return (
     <AppContainer>
       <HeroSection />
-      <SportsCarContainer colorText="Purple" colorValue="#544ae5" />
-      <SportsCarContainer colorText="Blue" colorValue="#7af1ff" />
+      <SportsCarContainer colorValue={Colors.Purple} />
+      <SportsCarContainer colorValue={Colors.Blue} />
       <Footer />
     </AppContainer>
   );

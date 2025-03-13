@@ -4,6 +4,5 @@ export enum HeroTextSize {
 }
 
 export interface SportsCarLayout {
-  colorText: string;
   colorValue: string;
 }
