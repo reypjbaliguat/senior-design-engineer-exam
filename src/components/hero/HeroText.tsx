@@ -1,5 +1,4 @@
 import { HeroTextSize } from "core/types/layout";
-import React from "react";
 
 interface Props {
   label: string;

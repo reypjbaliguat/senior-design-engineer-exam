@@ -1,8 +1,7 @@
-import React from "react";
 import "./App.css";
 import SportsCarContainer from "components/SportsCarContainer";
 import Footer from "components/Footer";
-import HeroSection from "components/HeroSection";
+import { HeroSection } from "components/hero";
 import AppContainer from "components/AppContainer";
 import { Colors } from "core/types/colors";
 

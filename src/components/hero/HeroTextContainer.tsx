@@ -1,5 +1,5 @@
 import { HeroTextSize } from "core/types/layout";
-import HeroText from "./HeroText";
+import { HeroText } from "./";
 
 interface Props {
   label: string;
