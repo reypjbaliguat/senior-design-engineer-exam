@@ -8,7 +8,7 @@ function HeroSection() {
       <img
         src={"assets/images/background.jpeg"}
         alt="Hero Background"
-        className="object-cover object-center absolute w-full z-0 h-2xl:aspect-bg-hero-2xl-aspect-ratio h-lg:aspect-bg-hero-lg-aspect-ratio"
+        className="object-cover object-top  absolute w-full z-0 h-2xl:aspect-bg-hero-2xl-aspect-ratio h-lg:aspect-bg-hero-lg-aspect-ratio"
       />
       <div className="h-lg:col-span-1 h-2xl:col-span-2 z-10 grid justify-center w-full">
         <HeroTextContainer label={"Ready to"} />
