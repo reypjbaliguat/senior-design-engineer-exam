@@ -1,4 +1,3 @@
-export { default as HeroSection } from "./HeroSection";
 export { default as HeroSectionContainer } from "./HeroSectionContainer";
 export { default as HeroTextContainer } from "./HeroTextContainer";
 export { default as HeroText } from "./HeroText";

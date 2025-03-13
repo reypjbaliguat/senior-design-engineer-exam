@@ -1,8 +1,10 @@
 import "./App.css";
-import { SportsCarSection } from "components/sports-car";
-import { Footer } from "components/footer";
-import { HeroSection } from "components/hero";
-import AppContainer from "components/AppContainer";
+import {
+  AppContainer,
+  HeroSection,
+  Footer,
+  SportsCarSection,
+} from "components/";
 import { Colors } from "core/types/colors";
 
 function App() {
